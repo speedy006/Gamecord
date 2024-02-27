@@ -1,0 +1,41 @@
+.land {
+    background-color: #4D0072;
+    position: relative;
+    top: -25px;
+}
+
+.nam {
+    font-size: 30px;
+    font-family:  sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    width: auto;
+    margin-left: 15px;
+}
+
+.profile {
+    border-radius: 25px;
+    width: 400px;
+    height: 40px;
+    background-color: #BB77E4;
+    float: right;
+    margin-right: 25px;
+}
+
+.menu {
+    width: 75px;
+    display: flex;
+    position: fixed;
+    top: 75px;
+    height: auto;
+    background-color: #55027C;
+}
+
+.content {
+    display: flex;
+    position: fixed;
+    top: 75px;
+    left: 75px;
+    float: right;
+    background-color: #750BA7;
+}
