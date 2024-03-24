@@ -5,7 +5,7 @@
 }
 
 .nam {
-    font-size: 30px;
+    font-size: 35px;
     font-family:  sans-serif;
     font-weight: bold;
     display: inline-block;
@@ -36,6 +36,53 @@
     position: fixed;
     top: 75px;
     left: 75px;
-    float: right;
     background-color: #750BA7;
+    overflow: scroll;
+}
+
+
+p {
+    font-size: 25px;
+    padding: 25px 25px 10px 25px;
+    color: #ffffff;
+    opacity: 80%;
+}
+
+.content1 {
+    display: flex;
+    position:absolute;
+    top: 80px;
+    left: 25px;
+    margin-left: 15px;
+}
+
+
+.ic1 {
+    width: 365px;
+    height: 225px;
+    background-color: #BB77E4;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+img {
+    width: 365px;
+    height: 225px;
+    border-radius: 10px;
+}
+
+.content2 {
+    display: flex;
+    position: absolute;
+    top: 335px;
+    left: 25px;
+    margin-left: 15px;
+}
+
+.ic2 {
+    width: 365px;
+    height: 225px;
+    background-color: #BB77E4;
+    border-radius: 10px;
+    margin-right: 50px;
 }
